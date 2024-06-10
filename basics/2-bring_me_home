@@ -1,2 +1,7 @@
 #!/bin/bash
-echo $HOME
+cd
+if [ -d ./project ]
+    then 
+        echo hi it exists!
+    else
+        echo it doesn't exist!
