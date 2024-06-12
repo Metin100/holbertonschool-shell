@@ -1,2 +1,2 @@
 #!/bin/bash
-cp .html ./
+cp path-of-child-folder/* path-of-parent-folder
