@@ -1,2 +1,7 @@
 #!/bin/bash
-cp path-of-child-folder/.html path-of-parent-folder
+
+cd ../folder_source
+for f in *.html
+do
+   cp -v "$f"  ../../folder_destination/"${f%.html}".html
+done
